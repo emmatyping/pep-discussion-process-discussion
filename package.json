@@ -1,0 +1,15 @@
+{
+  "name": "pep-discussion-process",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "slidev --port 3030",
+    "build": "slidev build",
+    "export": "slidev export --output pep-discussion-process.pdf"
+  },
+  "devDependencies": {
+    "@slidev/cli": "latest",
+    "@slidev/theme-default": "latest",
+    "playwright-chromium": "latest"
+  }
+}
